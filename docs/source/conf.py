@@ -1,7 +1,7 @@
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information -----------------------------------------------------
-project = 'Your Project Name'
+project = 'Innovation Management'
 copyright = '2025 - present, van Heemstra Systems'
 author = 'Willem van Heemstra'
 

@@ -6,6 +6,8 @@
 
 Create a New Team: "Innovation Management".
 
+<img width="589" height="274" alt="Image" src="https://github.com/user-attachments/assets/94833424-3bec-43d4-b76d-6cfcfb400938" />
+
 Create a New Project "Innovation Management".
 
 <img width="1436" height="536" alt="Image" src="https://github.com/user-attachments/assets/6faa20f9-e73f-4d8a-a784-4ce37c93616f" />

@@ -6,13 +6,13 @@
 // =============================================================================
 
 // Collection Schema Validation
-db.createCollection(“innovation_strategies”, {
+db.createCollection("innovation_strategies", {
 validator: {
 $jsonSchema: {
-bsonType: “object”,
-required: [“status”, “created_at”, “updated_at”, “version”],
+bsonType: "object",
+required: ["status", "created_at", "updated_at", "version"],
 properties: {
-_id: { bsonType: “objectId” },
+_id: { bsonType: "objectId" },
 
 ```
     // Status Management
@@ -375,92 +375,92 @@ _id: { bsonType: “objectId” },
 // =============================================================================
 
 // Service Events Collection
-db.createCollection(“service_events”, {
+db.createCollection("service_events", {
 validator: {
 $jsonSchema: {
-bsonType: “object”,
-required: [“event_type”, “service”, “timestamp”],
+bsonType: "object",
+required: ["event_type", "service", "timestamp"],
 properties: {
-_id: { bsonType: “objectId” },
+_id: { bsonType: "objectId" },
 event_type: {
-bsonType: “string”,
+bsonType: "string",
 enum: [
-“innovation_strategy_created”,
-“innovation_strategy_updated”,
-“innovation_strategy_validated”,
-“innovation_strategy_approved”,
-“innovation_strategy_rejected”
+"innovation_strategy_created",
+"innovation_strategy_updated",
+"innovation_strategy_validated",
+"innovation_strategy_approved",
+"innovation_strategy_rejected"
 ]
 },
-service: { bsonType: “string”, enum: [“innovation”] },
-document_id: { bsonType: “objectId” },
-document_ref: { bsonType: “string” },
-status: { bsonType: “string” },
-metadata: { bsonType: “object” },
-ai_insights: { bsonType: “object” },
-timestamp: { bsonType: “date” },
-processed: { bsonType: “bool”, default: false },
-retry_count: { bsonType: “int”, default: 0 }
+service: { bsonType: "string", enum: ["innovation"] },
+document_id: { bsonType: "objectId" },
+document_ref: { bsonType: "string" },
+status: { bsonType: "string" },
+metadata: { bsonType: "object" },
+ai_insights: { bsonType: "object" },
+timestamp: { bsonType: "date" },
+processed: { bsonType: "bool", default: false },
+retry_count: { bsonType: "int", default: 0 }
 }
 }
 }
 });
 
 // Service Logs Collection
-db.createCollection(“service_logs”, {
+db.createCollection("service_logs", {
 validator: {
 $jsonSchema: {
-bsonType: “object”,
-required: [“service”, “event_type”, “timestamp”],
+bsonType: "object",
+required: ["service", "event_type", "timestamp"],
 properties: {
-_id: { bsonType: “objectId” },
-service: { bsonType: “string”, enum: [“innovation_management”] },
+_id: { bsonType: "objectId" },
+service: { bsonType: "string", enum: ["innovation_management"] },
 event_type: {
-bsonType: “string”,
-enum: [“info”, “warning”, “error”, “debug”, “performance”]
+bsonType: "string",
+enum: ["info", "warning", "error", "debug", "performance"]
 },
-message: { bsonType: “string” },
-error_message: { bsonType: “string” },
-error_stack: { bsonType: “string” },
-input_data: { bsonType: “object” },
+message: { bsonType: "string" },
+error_message: { bsonType: "string" },
+error_stack: { bsonType: "string" },
+input_data: { bsonType: "object" },
 performance_metrics: {
-bsonType: “object”,
+bsonType: "object",
 properties: {
-execution_time_ms: { bsonType: “long” },
-ai_processing_time_ms: { bsonType: “long” },
-mongodb_operations_count: { bsonType: “int” },
-memory_usage_mb: { bsonType: “double” }
+execution_time_ms: { bsonType: "long" },
+ai_processing_time_ms: { bsonType: "long" },
+mongodb_operations_count: { bsonType: "int" },
+memory_usage_mb: { bsonType: "double" }
 }
 },
-timestamp: { bsonType: “date” },
+timestamp: { bsonType: "date" },
 severity: {
-bsonType: “string”,
-enum: [“low”, “medium”, “high”, “critical”]
+bsonType: "string",
+enum: ["low", "medium", "high", "critical"]
 },
-correlation_id: { bsonType: “string” }
+correlation_id: { bsonType: "string" }
 }
 }
 }
 });
 
 // Market Intelligence Collection (for caching external data)
-db.createCollection(“market_intelligence”, {
+db.createCollection("market_intelligence", {
 validator: {
 $jsonSchema: {
-bsonType: “object”,
-required: [“data_type”, “source”, “collected_at”],
+bsonType: "object",
+required: ["data_type", "source", "collected_at"],
 properties: {
-_id: { bsonType: “objectId” },
+_id: { bsonType: "objectId" },
 data_type: {
-bsonType: “string”,
-enum: [“industry_report”, “competitor_analysis”, “market_trend”, “customer_feedback”, “patent_data”]
+bsonType: "string",
+enum: ["industry_report", "competitor_analysis", "market_trend", "customer_feedback", "patent_data"]
 },
-source: { bsonType: “string” },
-data: { bsonType: “object” },
-collected_at: { bsonType: “date” },
-expires_at: { bsonType: “date” },
-reliability_score: { bsonType: “double”, minimum: 0, maximum: 1 },
-tags: { bsonType: “array”, items: { bsonType: “string” } }
+source: { bsonType: "string" },
+data: { bsonType: "object" },
+collected_at: { bsonType: "date" },
+expires_at: { bsonType: "date" },
+reliability_score: { bsonType: "double", minimum: 0, maximum: 1 },
+tags: { bsonType: "array", items: { bsonType: "string" } }
 }
 }
 }
@@ -473,56 +473,56 @@ tags: { bsonType: “array”, items: { bsonType: “string” } }
 // Primary Collection Indexes
 // Status and creation time for dashboard queries
 db.innovation_strategies.createIndex(
-{ “status”: 1, “created_at”: -1 },
-{ name: “status_creation_idx” }
+{ "status": 1, "created_at": -1 },
+{ name: "status_creation_idx" }
 );
 
 // Customer outcome opportunity scores (for prioritization)
 db.innovation_strategies.createIndex(
-{ “customer_outcomes.opportunity_score”: -1 },
-{ name: “outcome_opportunity_idx”, sparse: true }
+{ "customer_outcomes.opportunity_score": -1 },
+{ name: "outcome_opportunity_idx", sparse: true }
 );
 
 // Market segments by opportunity score
 db.innovation_strategies.createIndex(
-{ “market_segments.opportunity_score”: -1 },
-{ name: “segment_opportunity_idx”, sparse: true }
+{ "market_segments.opportunity_score": -1 },
+{ name: "segment_opportunity_idx", sparse: true }
 );
 
 // AI recommendation and confidence scores
 db.innovation_strategies.createIndex(
 {
-“ai_insights.recommendation”: 1,
-“ai_insights.confidence_score”: -1
+"ai_insights.recommendation": 1,
+"ai_insights.confidence_score": -1
 },
-{ name: “ai_recommendation_idx”, sparse: true }
+{ name: "ai_recommendation_idx", sparse: true }
 );
 
 // Validation scores for filtering
 db.innovation_strategies.createIndex(
-{ “validation_data.validation_scores.overall_confidence”: -1 },
-{ name: “validation_confidence_idx”, sparse: true }
+{ "validation_data.validation_scores.overall_confidence": -1 },
+{ name: "validation_confidence_idx", sparse: true }
 );
 
 // Version and update tracking
 db.innovation_strategies.createIndex(
-{ “version”: 1, “updated_at”: -1 },
-{ name: “version_tracking_idx” }
+{ "version": 1, "updated_at": -1 },
+{ name: "version_tracking_idx" }
 );
 
 // Text search on outcomes and segments
 db.innovation_strategies.createIndex(
 {
-“customer_outcomes.outcome”: “text”,
-“market_segments.segment_name”: “text”,
-“value_propositions.proposition”: “text”
+"customer_outcomes.outcome": "text",
+"market_segments.segment_name": "text",
+"value_propositions.proposition": "text"
 },
 {
-name: “content_search_idx”,
+name: "content_search_idx",
 weights: {
-“customer_outcomes.outcome”: 10,
-“market_segments.segment_name”: 5,
-“value_propositions.proposition”: 3
+"customer_outcomes.outcome": 10,
+"market_segments.segment_name": 5,
+"value_propositions.proposition": 3
 }
 }
 );
@@ -530,64 +530,64 @@ weights: {
 // Service Events Indexes
 // Event processing queue
 db.service_events.createIndex(
-{ “processed”: 1, “timestamp”: 1 },
-{ name: “event_processing_idx” }
+{ "processed": 1, "timestamp": 1 },
+{ name: "event_processing_idx" }
 );
 
 // Event type and service filtering
 db.service_events.createIndex(
-{ “service”: 1, “event_type”: 1, “timestamp”: -1 },
-{ name: “service_event_type_idx” }
+{ "service": 1, "event_type": 1, "timestamp": -1 },
+{ name: "service_event_type_idx" }
 );
 
 // Document reference lookup
 db.service_events.createIndex(
-{ “document_id”: 1, “timestamp”: -1 },
-{ name: “document_events_idx” }
+{ "document_id": 1, "timestamp": -1 },
+{ name: "document_events_idx" }
 );
 
 // Service Logs Indexes
 // Log level and service filtering
 db.service_logs.createIndex(
-{ “service”: 1, “event_type”: 1, “timestamp”: -1 },
-{ name: “service_log_type_idx” }
+{ "service": 1, "event_type": 1, "timestamp": -1 },
+{ name: "service_log_type_idx" }
 );
 
 // Error tracking
 db.service_logs.createIndex(
-{ “event_type”: 1, “severity”: 1, “timestamp”: -1 },
-{ name: “error_tracking_idx” }
+{ "event_type": 1, "severity": 1, "timestamp": -1 },
+{ name: "error_tracking_idx" }
 );
 
 // Performance monitoring
 db.service_logs.createIndex(
-{ “performance_metrics.execution_time_ms”: -1, “timestamp”: -1 },
-{ name: “performance_monitoring_idx”, sparse: true }
+{ "performance_metrics.execution_time_ms": -1, "timestamp": -1 },
+{ name: "performance_monitoring_idx", sparse: true }
 );
 
 // Market Intelligence Indexes
 // Data type and freshness
 db.market_intelligence.createIndex(
-{ “data_type”: 1, “collected_at”: -1 },
-{ name: “intelligence_type_idx” }
+{ "data_type": 1, "collected_at": -1 },
+{ name: "intelligence_type_idx" }
 );
 
 // Expiration for TTL
 db.market_intelligence.createIndex(
-{ “expires_at”: 1 },
-{ name: “intelligence_expiry_idx”, expireAfterSeconds: 0 }
+{ "expires_at": 1 },
+{ name: "intelligence_expiry_idx", expireAfterSeconds: 0 }
 );
 
 // Source reliability
 db.market_intelligence.createIndex(
-{ “source”: 1, “reliability_score”: -1 },
-{ name: “source_reliability_idx” }
+{ "source": 1, "reliability_score": -1 },
+{ name: "source_reliability_idx" }
 );
 
 // Tag-based searching
 db.market_intelligence.createIndex(
-{ “tags”: 1, “collected_at”: -1 },
-{ name: “intelligence_tags_idx” }
+{ "tags": 1, "collected_at": -1 },
+{ name: "intelligence_tags_idx" }
 );
 
 // =============================================================================
@@ -597,31 +597,31 @@ db.market_intelligence.createIndex(
 // Function: Get Top Opportunities by Segment
 function getTopOpportunitiesBySegment() {
 return db.innovation_strategies.aggregate([
-{ $match: { “status”: { $in: [“validated”, “approved”] } } },
-{ $unwind: “$customer_outcomes” },
-{ $unwind: “$market_segments” },
+{ $match: { "status": { $in: ["validated", "approved"] } } },
+{ $unwind: "$customer_outcomes" },
+{ $unwind: "$market_segments" },
 {
 $group: {
-_id: “$market_segments.segment_name”,
-avg_opportunity_score: { $avg: “$customer_outcomes.opportunity_score” },
-total_market_size: { $sum: “$market_segments.size” },
+_id: "$market_segments.segment_name",
+avg_opportunity_score: { $avg: "$customer_outcomes.opportunity_score" },
+total_market_size: { $sum: "$market_segments.size" },
 strategy_count: { $sum: 1 },
 top_outcomes: {
 $push: {
-outcome: “$customer_outcomes.outcome”,
-score: “$customer_outcomes.opportunity_score”
+outcome: "$customer_outcomes.outcome",
+score: "$customer_outcomes.opportunity_score"
 }
 }
 }
 },
-{ $sort: { “avg_opportunity_score”: -1 } },
+{ $sort: { "avg_opportunity_score": -1 } },
 {
 $project: {
-segment: “$_id”,
+segment: "$_id",
 avg_opportunity_score: 1,
 total_market_size: 1,
 strategy_count: 1,
-top_outcomes: { $slice: [”$top_outcomes”, 3] }
+top_outcomes: { $slice: ["$top_outcomes", 3] }
 }
 }
 ]);
@@ -630,46 +630,46 @@ top_outcomes: { $slice: [”$top_outcomes”, 3] }
 // Function: AI Performance Analytics
 function getAIPerformanceMetrics() {
 return db.innovation_strategies.aggregate([
-{ $match: { “ai_insights.confidence_score”: { $exists: true } } },
+{ $match: { "ai_insights.confidence_score": { $exists: true } } },
 {
 $group: {
-_id: “$ai_insights.model_version”,
-avg_confidence: { $avg: “$ai_insights.confidence_score” },
-avg_market_score: { $avg: “$ai_insights.market_opportunity_score” },
+_id: "$ai_insights.model_version",
+avg_confidence: { $avg: "$ai_insights.confidence_score" },
+avg_market_score: { $avg: "$ai_insights.market_opportunity_score" },
 recommendation_distribution: {
-$push: “$ai_insights.recommendation”
+$push: "$ai_insights.recommendation"
 },
 total_strategies: { $sum: 1 }
 }
 },
 {
 $project: {
-model_version: “$_id”,
-avg_confidence: { $round: [”$avg_confidence”, 3] },
-avg_market_score: { $round: [”$avg_market_score”, 2] },
+model_version: "$_id",
+avg_confidence: { $round: ["$avg_confidence", 3] },
+avg_market_score: { $round: ["$avg_market_score", 2] },
 total_strategies: 1,
 recommendations: {
 pursue: {
 $size: {
 $filter: {
-input: “$recommendation_distribution”,
-cond: { $eq: [”$$this”, “pursue”] }
+input: "$recommendation_distribution",
+cond: { $eq: ["$$this", "pursue"] }
 }
 }
 },
 modify: {
 $size: {
 $filter: {
-input: “$recommendation_distribution”,
-cond: { $eq: [”$$this”, “modify”] }
+input: "$recommendation_distribution",
+cond: { $eq: ["$$this", "modify"] }
 }
 }
 },
 abandon: {
 $size: {
 $filter: {
-input: “$recommendation_distribution”,
-cond: { $eq: [”$$this”, “abandon”] }
+input: "$recommendation_distribution",
+cond: { $eq: ["$$this", "abandon"] }
 }
 }
 }
@@ -682,24 +682,24 @@ cond: { $eq: [”$$this”, “abandon”] }
 // Function: Market Trend Analysis
 function getMarketTrendAnalysis() {
 return db.innovation_strategies.aggregate([
-{ $match: { “market_analysis.key_trends”: { $exists: true, $ne: [] } } },
-{ $unwind: “$market_analysis.key_trends” },
+{ $match: { "market_analysis.key_trends": { $exists: true, $ne: [] } } },
+{ $unwind: "$market_analysis.key_trends" },
 {
 $group: {
-_id: “$market_analysis.key_trends”,
+_id: "$market_analysis.key_trends",
 frequency: { $sum: 1 },
-avg_market_size: { $avg: “$market_analysis.total_addressable_market” },
+avg_market_size: { $avg: "$market_analysis.total_addressable_market" },
 success_rate: {
 $avg: {
 $cond: [
-{ $eq: [”$ai_insights.recommendation”, “pursue”] },
+{ $eq: ["$ai_insights.recommendation", "pursue"] },
 1, 0
 ]
 }
 }
 }
 },
-{ $sort: { “frequency”: -1 } },
+{ $sort: { "frequency": -1 } },
 { $limit: 20 }
 ]);
 }
@@ -725,16 +725,16 @@ errors.push(`Opportunity score mismatch in outcome ${index}`);
 if (doc.market_analysis) {
 const { total_addressable_market, serviceable_addressable_market, serviceable_obtainable_market } = doc.market_analysis;
 if (serviceable_addressable_market > total_addressable_market) {
-errors.push(“SAM cannot exceed TAM”);
+errors.push("SAM cannot exceed TAM");
 }
 if (serviceable_obtainable_market > serviceable_addressable_market) {
-errors.push(“SOM cannot exceed SAM”);
+errors.push("SOM cannot exceed SAM");
 }
 }
 
 // Validate AI confidence scores
 if (doc.ai_insights && doc.ai_insights.confidence_score > 1) {
-errors.push(“AI confidence score must be between 0 and 1”);
+errors.push("AI confidence score must be between 0 and 1");
 }
 
 return errors;

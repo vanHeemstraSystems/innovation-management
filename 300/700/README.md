@@ -28,6 +28,16 @@ Deploy the MongoDB Service on Sliplane for Innovation Management:
 
 <img width="1468" height="484" alt="Image" src="https://github.com/user-attachments/assets/b97b1a05-f6cd-4343-bf1a-9fa9de37784b" />
 
+MongoDB on Sliplane can now be reached as follows:
+
+- Connect to: mongo-3arg.sliplane.app:10563
+
+- Root Username: admin
+
+- Root Password: **************
+
+
+
 MORE
 
 ### Prerequisites

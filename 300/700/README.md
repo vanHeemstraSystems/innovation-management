@@ -2,6 +2,12 @@
 
 ## 100 - MongoDB Schema for Innovation Management Microservice
 
+### On Sliplane
+
+Create a new Project "Innovation Management".
+
+Add a Service, choose from the templates: MongoDB.
+
 ### On Docker Hub
 
 Create a Personal Access Token on Docker Hub for use by Innovation Management:
@@ -20,6 +26,7 @@ Deploy the MongoDB Service on Sliplane for Innovation Management:
 
 <img width="1193" height="1103" alt="Image" src="https://github.com/user-attachments/assets/09784787-0133-41b9-8355-535ae10f01ee" />
 
+<img width="1468" height="484" alt="Image" src="https://github.com/user-attachments/assets/b97b1a05-f6cd-4343-bf1a-9fa9de37784b" />
 
 MORE
 

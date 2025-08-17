@@ -68,11 +68,9 @@ Deploy the MongoDB Service on Sliplane for Innovation Management:
 
 <img width="1186" height="1104" alt="Image" src="https://github.com/user-attachments/assets/f78f6390-cf7f-49b2-81d1-337ae4f2da7b" />
 
-<OLD img width="1193" height="1103" alt="Image" src="https://github.com/user-attachments/assets/09784787-0133-41b9-8355-535ae10f01ee" / OLD>
-
 <img width="1441" height="478" alt="Image" src="https://github.com/user-attachments/assets/7eb43085-dd39-4afa-aac7-5c177220a955" />
 
-<OLD img width="1468" height="484" alt="Image" src="https://github.com/user-attachments/assets/b97b1a05-f6cd-4343-bf1a-9fa9de37784b" / OLD>
+<img width="1439" height="1101" alt="Image" src="https://github.com/user-attachments/assets/b131b0b4-30f6-4e10-8478-4cd3eba93985" />
 
 MongoDB on Sliplane can now be reached as follows:
 
@@ -81,10 +79,6 @@ MongoDB on Sliplane can now be reached as follows:
 - Root Username: admin
 
 - Root Password: **************
-
-
-
-MORE
 
 ### Prerequisites
 
@@ -100,11 +94,11 @@ MORE
 Your Kamatera MongoDB credentials:
 
 ```
-Host: your-kamatera-mongodb-host
+Host: your-kamatera-mongodb-host (here: mongo-jypf.sliplane.app)
 Port: 27017
 Database: innovation_db
-Username: your_username
-Password: your_password
+Username: your_username (here: admin)
+Password: your_password (here: *************)
 ```
 
 ```bash

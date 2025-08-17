@@ -36,6 +36,10 @@ Select Credential:
 
 <img width="1189" height="1101" alt="Image" src="https://github.com/user-attachments/assets/d3b9ee48-6200-4243-a21f-0b77a147d984" />
 
+In case of no previous Credential, Add Credential:
+
+<img width="1400" height="444" alt="Image" src="https://github.com/user-attachments/assets/c8431bdf-6c1b-4e65-9cbf-7db507db1a8b" />
+
 
 ### On Docker Hub
 

@@ -70,11 +70,13 @@ Deploy the MongoDB Service on Sliplane for Innovation Management:
 
 <OLD img width="1193" height="1103" alt="Image" src="https://github.com/user-attachments/assets/09784787-0133-41b9-8355-535ae10f01ee" / OLD>
 
-<img width="1468" height="484" alt="Image" src="https://github.com/user-attachments/assets/b97b1a05-f6cd-4343-bf1a-9fa9de37784b" />
+<img width="1441" height="478" alt="Image" src="https://github.com/user-attachments/assets/7eb43085-dd39-4afa-aac7-5c177220a955" />
+
+<OLD img width="1468" height="484" alt="Image" src="https://github.com/user-attachments/assets/b97b1a05-f6cd-4343-bf1a-9fa9de37784b" / OLD>
 
 MongoDB on Sliplane can now be reached as follows:
 
-- Connect to: mongo-3arg.sliplane.app:10563
+- Connect to: mongo-jypf.sliplane.app:27017
 
 - Root Username: admin
 

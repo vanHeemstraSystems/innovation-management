@@ -12,7 +12,13 @@ Create a New Project "Innovation Management".
 
 <img width="625" height="309" alt="Image" src="https://github.com/user-attachments/assets/9d6fb310-a79f-492c-9d35-4c64f01d175a" />
 
-Add a Service, choose from the templates: MongoDB.
+Add a Service:
+
+<img width="1191" height="446" alt="Image" src="https://github.com/user-attachments/assets/1c2b3478-b81e-4495-bd59-d77c33eb9b6b" />
+
+Choose from the templates: MongoDB.
+
+
 
 ### On Docker Hub
 

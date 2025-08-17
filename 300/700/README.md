@@ -32,6 +32,10 @@ Choose from the templates: MongoDB.
 
 <img width="1199" height="1095" alt="Image" src="https://github.com/user-attachments/assets/56256681-b4c8-42ee-a0e0-439219f2cc37" />
 
+Select Credential:
+
+<img width="1189" height="1101" alt="Image" src="https://github.com/user-attachments/assets/d3b9ee48-6200-4243-a21f-0b77a147d984" />
+
 
 ### On Docker Hub
 

@@ -44,8 +44,6 @@ Add Registry Credential, here Docker Hub:
 
 <img width="592" height="552" alt="Image" src="https://github.com/user-attachments/assets/0ac42f4d-6443-4895-b6c1-d2b5aa266a68" />
 
-
-
 ### On Docker Hub
 
 Create a Personal Access Token on Docker Hub for use by Innovation Management:
@@ -58,7 +56,9 @@ Create a Personal Access Token on Docker Hub for use by Innovation Management:
 
 Use the Personal Access Token on Docker Hub to register Docker Hub with Sliplane:
 
-<img width="1054" height="816" alt="Image" src="https://github.com/user-attachments/assets/927ed478-514a-45ae-90c8-cb60d3362d12" />
+<img width="587" height="548" alt="Image" src="https://github.com/user-attachments/assets/2962a80d-b9c4-42da-a36b-0f5048b69315" />
+
+<OLD img width="1054" height="816" alt="Image" src="https://github.com/user-attachments/assets/927ed478-514a-45ae-90c8-cb60d3362d12" / OLD>
 
 Deploy the MongoDB Service on Sliplane for Innovation Management:
 

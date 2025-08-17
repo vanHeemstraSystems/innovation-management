@@ -6,6 +6,8 @@ Create a Personal Access Token on Docker Hub for use by Innovation Management:
 
 <img width="957" height="822" alt="Image" src="https://github.com/user-attachments/assets/b3711f32-e086-43b3-b2bd-cdfffa75ede4" />
 
+<img width="1247" height="835" alt="Image" src="https://github.com/user-attachments/assets/f0afe8db-8d6a-4af3-a466-e2177e22cf9e" />
+
 ### Prerequisites
 
 - Pipedream account with Pro plan (for MongoDB integration)

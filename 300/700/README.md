@@ -20,6 +20,10 @@ Create a New Server:
 
 <img width="1191" height="446" alt="Image" src="https://github.com/user-attachments/assets/1c2b3478-b81e-4495-bd59-d77c33eb9b6b" />
 
+Choose a Location and Size for your New Server:
+
+<img width="593" height="683" alt="Image" src="https://github.com/user-attachments/assets/d360069a-c712-4075-8f93-b352e681635f" />
+
 Choose from the templates: MongoDB.
 
 

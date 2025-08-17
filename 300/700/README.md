@@ -24,6 +24,10 @@ Create a Personal Access Token on Docker Hub for use by Innovation Management:
 
 ### On Sliplane
 
+Deploy a New Service:
+
+<img width="1447" height="530" alt="Image" src="https://github.com/user-attachments/assets/c7616905-2e62-44e1-8437-21a9c7eb48ae" />
+
 Use the Personal Access Token on Docker Hub to register Docker Hub with Sliplane:
 
 <img width="1054" height="816" alt="Image" src="https://github.com/user-attachments/assets/927ed478-514a-45ae-90c8-cb60d3362d12" />

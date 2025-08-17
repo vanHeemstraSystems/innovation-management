@@ -4,7 +4,11 @@
 
 ### On Sliplane
 
-Create a new Project "Innovation Management".
+Create a New Team: "Innovation Management".
+
+Create a New Project "Innovation Management".
+
+<img width="1436" height="536" alt="Image" src="https://github.com/user-attachments/assets/6faa20f9-e73f-4d8a-a784-4ce37c93616f" />
 
 Add a Service, choose from the templates: MongoDB.
 

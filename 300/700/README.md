@@ -10,7 +10,7 @@ Create a Personal Access Token on Docker Hub for use by Innovation Management:
 
 Use the Personal Access Token on Docker Hub to register Docker Hub with Sliplane:
 
-<img width="1054" height="816" alt="Image" src="https://github.com/user-attachments/assets/deca45f3-eeb2-4da5-b7a6-49ae8906ef39" />
+<img width="1054" height="816" alt="Image" src="https://github.com/user-attachments/assets/927ed478-514a-45ae-90c8-cb60d3362d12" />
 
 
 

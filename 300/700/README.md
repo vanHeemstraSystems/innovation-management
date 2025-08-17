@@ -30,6 +30,7 @@ Select the Newly Created Server:
 
 Choose from the templates: MongoDB.
 
+<img width="1199" height="1095" alt="Image" src="https://github.com/user-attachments/assets/56256681-b4c8-42ee-a0e0-439219f2cc37" />
 
 
 ### On Docker Hub

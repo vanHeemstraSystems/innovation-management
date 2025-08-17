@@ -40,6 +40,11 @@ In case of no previous Credential, Add Credential:
 
 <img width="1400" height="444" alt="Image" src="https://github.com/user-attachments/assets/c8431bdf-6c1b-4e65-9cbf-7db507db1a8b" />
 
+Add Registry Credential, here Docker Hub:
+
+<img width="592" height="552" alt="Image" src="https://github.com/user-attachments/assets/0ac42f4d-6443-4895-b6c1-d2b5aa266a68" />
+
+
 
 ### On Docker Hub
 

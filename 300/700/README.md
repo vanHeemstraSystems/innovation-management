@@ -16,7 +16,7 @@ Deploy a New Service:
 
 <img width="1447" height="530" alt="Image" src="https://github.com/user-attachments/assets/c7616905-2e62-44e1-8437-21a9c7eb48ae" />
 
-Add a Service:
+Create a New Server:
 
 <img width="1191" height="446" alt="Image" src="https://github.com/user-attachments/assets/1c2b3478-b81e-4495-bd59-d77c33eb9b6b" />
 

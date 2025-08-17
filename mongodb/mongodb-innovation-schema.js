@@ -746,12 +746,12 @@ return errors;
 
 // Weekly aggregation for reporting
 db.runCommand({
-“create”: “weekly_innovation_summary”,
-“viewOn”: “innovation_strategies”,
-“pipeline”: [
+"create": "weekly_innovation_summary",
+"viewOn": "innovation_strategies",
+"pipeline": [
 {
 $match: {
-“created_at”: {
+"created_at": {
 $gte: new Date(new Date() - 7 * 24 * 60 * 60 * 1000)
 }
 }
@@ -760,9 +760,9 @@ $gte: new Date(new Date() - 7 * 24 * 60 * 60 * 1000)
 $group: {
 _id: null,
 total_strategies: { $sum: 1 },
-avg_confidence: { $avg: “$ai_insights.confidence_score” },
-status_distribution: { $push: “$status” },
-top_segments: { $push: “$market_segments.segment_name” }
+avg_confidence: { $avg: "$ai_insights.confidence_score" },
+status_distribution: { $push: "$status" },
+top_segments: { $push: "$market_segments.segment_name" }
 }
 }
 ]
@@ -775,20 +775,20 @@ twoYearsAgo.setFullYear(twoYearsAgo.getFullYear() - 2);
 
 return db.innovation_strategies.updateMany(
 {
-“created_at”: { $lt: twoYearsAgo },
-“status”: { $nin: [“approved”, “active”] }
+"created_at": { $lt: twoYearsAgo },
+"status": { $nin: ["approved", "active"] }
 },
 {
 $set: {
-“status”: “archived”,
-“archived_at”: new Date()
+"status": "archived",
+"archived_at": new Date()
 }
 }
 );
 }
 
-console.log(“✅ MongoDB Schema for Innovation Management Microservice created successfully!”);
-console.log(“📋 Collections created: innovation_strategies, service_events, service_logs, market_intelligence”);
-console.log(“🔍 Indexes optimized for: status queries, opportunity scoring, AI insights, text search”);
-console.log(“📊 Aggregation pipelines available for: opportunity analysis, AI performance, market trends”);
-console.log(“✨ Ready for Pipedream workflow integration!”);
+console.log("✅ MongoDB Schema for Innovation Management Microservice created successfully!");
+console.log("📋 Collections created: innovation_strategies, service_events, service_logs, market_intelligence");
+console.log("🔍 Indexes optimized for: status queries, opportunity scoring, AI insights, text search");
+console.log("📊 Aggregation pipelines available for: opportunity analysis, AI performance, market trends");
+console.log("✨ Ready for Pipedream workflow integration!");

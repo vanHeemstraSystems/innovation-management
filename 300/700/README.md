@@ -2,6 +2,10 @@
 
 ## 100 - MongoDB Schema for Innovation Management Microservice
 
+Create a Personal Access Token on Docker Hub for use by Innovation Management:
+
+<img width="957" height="822" alt="Image" src="https://github.com/user-attachments/assets/b3711f32-e086-43b3-b2bd-cdfffa75ede4" />
+
 ### Prerequisites
 
 - Pipedream account with Pro plan (for MongoDB integration)

@@ -119,6 +119,10 @@ Add the credentials for the new connection.
 
 <img width="662" height="570" alt="Image" src="https://github.com/user-attachments/assets/96d1b239-d90d-4661-901b-0924e96ed125" />
 
+Open the connection and view the configuration and folder structure.
+
+<img width="1050" height="638" alt="Image" src="https://github.com/user-attachments/assets/e19b12fc-763f-4577-8f8c-e5bd22da50d2" />
+
 MORE
 
 1. **Run the schema creation script:**

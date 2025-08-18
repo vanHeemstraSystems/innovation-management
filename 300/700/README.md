@@ -136,6 +136,28 @@ The newly created Database is listed.
 <img width="1050" height="741" alt="Image" src="https://github.com/user-attachments/assets/8c5245cb-d36f-470f-b190-579d1187696a" />
 
 
+**NOTE**: For the next section we are switching to Robo 3T Studio - Community Edition, as it seems more adapt to creating collections from script. TO DO: Find out how the same is achieved with Robo 3T.
+
+In Robo 3T Studio - Community Edition create a new file and add the following as a starter:
+
+```
+// MongoDB Schema for Innovation Management Microservice
+// File: mongodb-innovation-schema.js
+
+// =============================================================================
+// MAIN COLLECTION: innovation_strategies
+// =============================================================================
+
+// Collection Schema Validation
+db.createCollection('innovation_strategies', {
+
+}) 
+```
+
+Run above script with the foreward arrow (>) and you should see a collection **innovation_strategies** been added to the ```innovation_db / Collections``` folder.
+
+<img width="1210" height="1032" alt="Image" src="https://github.com/user-attachments/assets/40ffa769-1bcf-463c-8d24-c0c9d5eea13a" />
+
 === WE ARE HERE ===
 
 

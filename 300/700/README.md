@@ -87,18 +87,18 @@ MongoDB on Sliplane can now be reached as follows:
 ### Prerequisites
 
 - Pipedream account with Pro plan (for MongoDB integration)
-- Kamatera MongoDB instance running MongoDB 5.0+
+- Sliplane MongoDB instance running MongoDB 5.0+
 - OpenAI API key with GPT-4 access
 - Basic knowledge of JavaScript/Node.js
 
 ### Step 1: MongoDB Setup
 
-1. **Connect to your Kamatera MongoDB instance:**
+1. **Connect to your Sliplane MongoDB instance:**
 
-Your Kamatera MongoDB credentials:
+Your Sliplane MongoDB credentials:
 
 ```
-Host: your-kamatera-mongodb-host (here: mongo-jypf.sliplane.app)
+Host: your-sliplane-mongodb-host (here: mongo-jypf.sliplane.app)
 Port: 27017
 Database: innovation_db
 Username: your_username (here: admin)
@@ -106,7 +106,7 @@ Password: your_password (here: *************)
 ```
 
 ```bash
-mongo mongodb://your-kamatera-mongodb-host:27017/innovation_db
+mongo mongodb://your-sliplane-mongodb-host:27017/innovation_db
 ```
 
 1. **Run the schema creation script:**

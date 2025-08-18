@@ -13,6 +13,14 @@ See file: pipedream/innovation-management-workflow.js
 
 ### Step 1: Pipedream Workflow Setup
 
+1. **Login to PipeDream:**
+- Go to https://pipedream.com
+- Login with email (here: ```wvanheemstra@icloud.com```) and password
+2. **Create a New Project**
+- Click **+ New Project**
+
+<img width="1072" height="1007" alt="Image" src="https://github.com/user-attachments/assets/41df8ee9-45c2-447f-aa52-47ce8f23723e" />
+
 1. **Create New Workflow in Pipedream:**
 - Go to https://pipedream.com/workflows
 - Click “New Workflow”

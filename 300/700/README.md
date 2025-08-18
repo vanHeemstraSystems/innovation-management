@@ -115,6 +115,10 @@ Altenatively, use the Graphical User Interface of the desktop application **[Rob
 
 If the **Test** succeeds for the connection, but fails on listing databases, that is as expected as we have not yet created a database on this MongoDB instance yet.
 
+Add the credentials for the new connection.
+
+<img width="662" height="570" alt="Image" src="https://github.com/user-attachments/assets/96d1b239-d90d-4661-901b-0924e96ed125" />
+
 MORE
 
 1. **Run the schema creation script:**

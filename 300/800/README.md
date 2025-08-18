@@ -4,39 +4,14 @@
 
 See file: pipedream/innovation-management-workflow.js
 
-# Innovation Management Microservice - Deployment & API Guide
-
-## 🚀 Quick Start Deployment
-
 ### Prerequisites
 
 - Pipedream account with Pro plan (for MongoDB integration)
-- Kamatera MongoDB instance running MongoDB 5.0+
+- Sliplane MongoDB instance running MongoDB 5.0+
 - OpenAI API key with GPT-4 access
 - Basic knowledge of JavaScript/Node.js
 
-### Step 1: MongoDB Setup
-
-1. **Connect to your Kamatera MongoDB instance:**
-
-```bash
-mongo mongodb://your-kamatera-host:27017/innovation_db
-```
-
-1. **Run the schema creation script:**
-
-```javascript
-// Copy and paste the MongoDB schema code from the previous artifact
-// This will create collections with validation rules and indexes
-```
-
-1. **Verify collections are created:**
-
-```bash
-db.listCollections()
-```
-
-### Step 2: Pipedream Workflow Setup
+### Step 1: Pipedream Workflow Setup
 
 1. **Create New Workflow in Pipedream:**
 - Go to https://pipedream.com/workflows
@@ -65,7 +40,7 @@ db.listCollections()
 - Paste into the Pipedream code editor
 - Test the workflow
 
-### Step 3: Environment Configuration
+### Step 2: Environment Configuration
 
 Add these environment variables in Pipedream:
 
@@ -479,7 +454,7 @@ const processLargeDataset = async (data) => {
 
 ## 🎯 Next Steps
 
-1. **Deploy the MongoDB schema** to your Kamatera instance
+1. **Deploy the MongoDB schema** to your Sliplane instance
 1. **Create the Pipedream workflow** with the provided code
 1. **Test with sample data** to verify functionality
 1. **Set up monitoring** for production use

@@ -131,6 +131,10 @@ Name the new Database **innovation_db**.
 
 <img width="310" height="230" alt="Image" src="https://github.com/user-attachments/assets/74b28a30-267d-4a63-8517-43750fbcfdd2" />
 
+The newly created Database is listed.
+
+<img width="1050" height="741" alt="Image" src="https://github.com/user-attachments/assets/8c5245cb-d36f-470f-b190-579d1187696a" />
+
 
 === WE ARE HERE ===
 

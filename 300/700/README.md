@@ -68,8 +68,6 @@ New Credential "Innovation Management" for DockerHub added:
 
 <img width="1395" height="480" alt="Image" src="https://github.com/user-attachments/assets/3541b3d8-7bb1-4879-a0e3-ffc7877be2e0" />
 
-<OLD img width="1054" height="816" alt="Image" src="https://github.com/user-attachments/assets/927ed478-514a-45ae-90c8-cb60d3362d12" / OLD>
-
 Deploy the MongoDB Service on Sliplane for Innovation Management:
 
 <img width="1186" height="1104" alt="Image" src="https://github.com/user-attachments/assets/f78f6390-cf7f-49b2-81d1-337ae4f2da7b" />

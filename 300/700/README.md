@@ -222,40 +222,4 @@ The result will be as below:
 
 **NOTE**: Despite the ```MongoServerError[FailedToParse]: $jsonSchema keyword 'default' is not currently supported``` the code completes successfully. TO DO: Check if this error has caused the code to fail.
 
-=== WE ARE HERE ===
-
-
-Upload the script file ```mongodb/mongodb-innovation-schema.js``` from the current repository to ```data/db``` in the MongoDB instance via Robo 3T.
-
-The default location for script files in MongoDB is ```data/db```.
-
-If you put any script there you can call it as
-
-```
-load("myjstest.js")      // or 
-load("/data/db/myjstest.js")
-```
-
-Open a new Shell tab in MongoDB as follows:
-
-<img width="1050" height="740" alt="Image" src="https://github.com/user-attachments/assets/46ab6c44-af20-4388-bee5-1e1f4f025efc" />
-
-
-
-MORE
-
-1. **Run the schema creation script:**
-
-```javascript
-// Copy and paste the MongoDB schema code from the previous artifact
-// This will create collections with validation rules and indexes
-```
-
-See file: mongodb/mongodb-innovation-schema.js
-
-
-1. **Verify collections are created:**
-
-```bash
-db.listCollections()
-```
+We are now ready for the MongoDB integration with PipeDream, see dedicated section in this GitHub repository.

@@ -33,7 +33,11 @@ We see that the already existing repository **vanHeemstraSystems/innovation-mana
 
 - Make it part of the Project “Innovation Management”
 - Branch used is: **main**
+- Name the Workflow "Innovation Management"
 
+<img width="1059" height="1007" alt="Image" src="https://github.com/user-attachments/assets/5da1e78f-9d7e-4158-a194-ab3e7b6c74a7" />
+
+- Click **Create Workflow**
 
 1. **Add HTTP Trigger:**
 - Select “HTTP / Webhook” as trigger

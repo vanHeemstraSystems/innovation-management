@@ -123,6 +123,14 @@ Open the connection and view the configuration and folder structure.
 
 <img width="1050" height="638" alt="Image" src="https://github.com/user-attachments/assets/e19b12fc-763f-4577-8f8c-e5bd22da50d2" />
 
+Create a new database called **innovation_db**.
+
+<img width="1050" height="740" alt="Image" src="https://github.com/user-attachments/assets/a3848e8e-768f-4f68-b003-8f8421a0ef3f" />
+
+
+=== WE ARE HERE ===
+
+
 Upload the script file ```mongodb/mongodb-innovation-schema.js``` from the current repository to ```data/db``` in the MongoDB instance via Robo 3T.
 
 The default location for script files in MongoDB is ```data/db```.

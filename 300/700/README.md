@@ -4,6 +4,8 @@
 
 ### On Sliplane
 
+Browse for and login to [Sliplane.io](https://sliplane.io/app/projects).
+
 Create a New Team: "Innovation Management".
 
 <img width="589" height="274" alt="Image" src="https://github.com/user-attachments/assets/94833424-3bec-43d4-b76d-6cfcfb400938" />
@@ -47,6 +49,8 @@ Add Registry Credential, here Docker Hub:
 <img width="592" height="552" alt="Image" src="https://github.com/user-attachments/assets/0ac42f4d-6443-4895-b6c1-d2b5aa266a68" />
 
 ### On Docker Hub
+
+Browse for and login to [Docker Hub](https://app.docker.com).
 
 Create a Personal Access Token on Docker Hub for use by Innovation Management:
 

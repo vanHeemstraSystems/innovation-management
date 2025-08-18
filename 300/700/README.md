@@ -212,6 +212,14 @@ When looking at the raw shell output the console log messages are visible:
 
 <img width="1210" height="1032" alt="Image" src="https://github.com/user-attachments/assets/297a0caa-7706-48c3-8a5f-9e720d9f3de6" />
 
+Now that we have validated if running a script is successful, next run the content of ```mongodb/mongodb-innovation-schema.js``` found in this GitHub repository thus including all code.
+
+The result will be as below:
+
+<img width="1210" height="1032" alt="Image" src="https://github.com/user-attachments/assets/10d77d6c-9314-417d-a72e-696b37c08c6a" />
+
+**NOTE**: Despite the ```MongoServerError[FailedToParse]: $jsonSchema keyword 'default' is not currently supported``` the code completes successfully. TO DO: Check if this error has caused the code to fail.
+
 === WE ARE HERE ===
 
 

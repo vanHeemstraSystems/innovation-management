@@ -109,6 +109,14 @@ Password: your_password (here: *************)
 mongo mongodb://your-sliplane-mongodb-host:27017/innovation_db
 ```
 
+Altenatively, use the Graphical User Interface of the desktop application **Robo 3T** to create the connection with the MongoDB instance on Sliplane we created previously.
+
+<img width="665" height="574" alt="Image" src="https://github.com/user-attachments/assets/3117c952-5d0a-48bb-bced-c9a9472b6b65" />
+
+If the **Test** of the conenction fails on listing databases, that is as expected as we have not yet created a database on this MongoDB instance yet.
+
+MORE
+
 1. **Run the schema creation script:**
 
 ```javascript

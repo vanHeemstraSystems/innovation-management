@@ -28,7 +28,13 @@ We see that the already existing repository **vanHeemstraSystems/innovation-mana
 1. **Create New Workflow in Pipedream:**
 - Go to https://pipedream.com/workflows
 - Click “New Workflow”
-- Name it “AI Enhanced Innovation Management”
+
+<img width="1059" height="1007" alt="Image" src="https://github.com/user-attachments/assets/ca30d6ed-cb02-4512-94dd-11712ab8c50b" />
+
+- Make it part of the Project “Innovation Management”
+- Branch used is: **main**
+
+
 1. **Add HTTP Trigger:**
 - Select “HTTP / Webhook” as trigger
 - Copy the webhook URL for later use

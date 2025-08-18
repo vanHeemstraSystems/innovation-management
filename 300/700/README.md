@@ -123,9 +123,13 @@ Open the connection and view the configuration and folder structure.
 
 <img width="1050" height="638" alt="Image" src="https://github.com/user-attachments/assets/e19b12fc-763f-4577-8f8c-e5bd22da50d2" />
 
-Create a new database called **innovation_db**.
+Create a new database.
 
 <img width="1050" height="740" alt="Image" src="https://github.com/user-attachments/assets/a3848e8e-768f-4f68-b003-8f8421a0ef3f" />
+
+Name the new Database **innovation_db**.
+
+<img width="310" height="230" alt="Image" src="https://github.com/user-attachments/assets/74b28a30-267d-4a63-8517-43750fbcfdd2" />
 
 
 === WE ARE HERE ===

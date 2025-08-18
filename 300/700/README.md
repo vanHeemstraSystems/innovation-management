@@ -157,6 +157,57 @@ Run above script with the foreward arrow (>) and you should see a collection **i
 
 <img width="1210" height="1032" alt="Image" src="https://github.com/user-attachments/assets/40ffa769-1bcf-463c-8d24-c0c9d5eea13a" />
 
+Drop the newly created Collection ```innovation_strategies```, as we are going to run an extended edition of the script, as follows:
+
+```
+// MongoDB Schema for Innovation Management Microservice
+// File: mongodb-innovation-schema.js
+
+// =============================================================================
+// MAIN COLLECTION: innovation_strategies
+// =============================================================================
+
+// Collection Schema Validation
+db.createCollection('innovation_strategies', {
+
+})
+
+// =============================================================================
+// SUPPORTING COLLECTIONS
+// =============================================================================
+
+// Service Events Collection
+db.createCollection('service_events', {
+    
+})
+
+// Service Logs Collection
+db.createCollection('service_logs', {
+    
+})
+
+// Market Intelligence Collection (for caching external data)
+db.createCollection('market_intelligence', {
+    
+})
+
+console.log(
+  '✅ MongoDB Schema for Innovation Management Microservice created successfully!'
+)
+console.log(
+  '📋 Collections created: innovation_strategies, service_events, service_logs, market_intelligence'
+)
+```
+
+Run above script and you should see more Collections:
+
+- innovation_strategies
+- service_events
+- service_logs
+- marketing_intelligence
+
+<img width="1210" height="1032" alt="Image" src="https://github.com/user-attachments/assets/a8db47e5-991c-4237-b4a1-f4f2c46bb074" />
+
 === WE ARE HERE ===
 
 

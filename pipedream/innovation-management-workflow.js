@@ -2,7 +2,7 @@
 // File: innovation-management-workflow.js
 
 export default defineComponent({
-  name: 'AI Enhanced Innovation Management',
+  name: 'Innovation Management',
   version: '1.0.0',
   description:
     'Outcome-Driven Innovation (ODI) microservice with AI enhancement for market discovery and strategy formulation',
@@ -11,7 +11,7 @@ export default defineComponent({
     mongodb: {
       type: 'app',
       app: 'mongodb',
-      description: 'Kamatera MongoDB connection'
+      description: 'Sliplane MongoDB connection'
     },
     openai: {
       type: 'app',
@@ -26,7 +26,7 @@ export default defineComponent({
 
   async run ({ steps, $ }) {
     try {
-      console.log('🚀 Starting AI-Enhanced Innovation Management Process')
+      console.log('🚀 Starting Innovation Management Process')
 
       // STEP 1: INPUT COLLECTION AND VALIDATION
       const inputs = await this.collectAndValidateInputs(steps)

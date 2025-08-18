@@ -40,6 +40,11 @@ We see that the already existing repository **vanHeemstraSystems/innovation-mana
 - Click **Create Workflow**
 
 1. **Add HTTP Trigger:**
+
+- Edit the Workflow "Innovation Management"
+
+<img width="1059" height="1007" alt="Image" src="https://github.com/user-attachments/assets/f1aa43ff-0311-4529-8258-c3c0d7c2be4e" />
+
 - Select “HTTP / Webhook” as trigger
 - Copy the webhook URL for later use
 - Configure to accept POST requests

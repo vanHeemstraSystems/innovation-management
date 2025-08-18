@@ -21,6 +21,10 @@ See file: pipedream/innovation-management-workflow.js
 
 <img width="1072" height="1007" alt="Image" src="https://github.com/user-attachments/assets/41df8ee9-45c2-447f-aa52-47ce8f23723e" />
 
+We see that the already existing repository **vanHeemstraSystems/innovation-management** is recognized by PipeDream.
+
+<img width="1072" height="1007" alt="Image" src="https://github.com/user-attachments/assets/790d3e73-ea40-419a-bca9-5d2cb20f9f94" />
+
 1. **Create New Workflow in Pipedream:**
 - Go to https://pipedream.com/workflows
 - Click “New Workflow”

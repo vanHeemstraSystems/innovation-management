@@ -135,8 +135,7 @@ The newly created Database is listed.
 
 <img width="1050" height="741" alt="Image" src="https://github.com/user-attachments/assets/8c5245cb-d36f-470f-b190-579d1187696a" />
 
-
-**NOTE**: For the next section we are switching to **Studio 3T Community Edition**, as it seems more adapt to creating collections from script. TO DO: Find out how the same is achieved with Robo 3T.
+**NOTE**: For the next section we are switching to **[Studio 3T Community Edition](https://robomongo.org/download-os.php)**, as it seems more adapt to creating collections from script. TO DO: Find out how the same is achieved with Robo 3T.
 
 In **Studio 3T Community Edition** create a new file and add the following as a starter:
 

@@ -46,6 +46,9 @@ We see that the already existing repository **vanHeemstraSystems/innovation-mana
 <img width="1059" height="1007" alt="Image" src="https://github.com/user-attachments/assets/f1aa43ff-0311-4529-8258-c3c0d7c2be4e" />
 
 - Select “HTTP / Webhook” as trigger
+
+<img width="1059" height="892" alt="Image" src="https://github.com/user-attachments/assets/5c2cd39b-9321-4bca-8360-4de5a39d12fe" />
+
 - Copy the webhook URL for later use
 - Configure to accept POST requests
 1. **Add MongoDB App Connection:**

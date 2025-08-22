@@ -53,14 +53,14 @@ We see that the already existing repository **vanHeemstraSystems/innovation-mana
 - Configure to accept POST requests
 1. **Add MongoDB App Connection:**
 - In workflow settings, add “MongoDB” app
-- Configure with your Kamatera MongoDB credentials:
+- Configure with your Sliplane MongoDB credentials:
   
   ```
-  Host: your-kamatera-mongodb-host
+  Host: your-sliplane-mongodb-host (here: ...)
   Port: 27017
   Database: innovation_db
-  Username: your_username
-  Password: your_password
+  Username: your_username (here: admin)
+  Password: your_password (here: *********)
   ```
 1. **Add OpenAI App Connection:**
 - Add “OpenAI” app in workflow settings
@@ -75,7 +75,7 @@ We see that the already existing repository **vanHeemstraSystems/innovation-mana
 Add these environment variables in Pipedream:
 
 ```
-MONGODB_CONNECTION_STRING=mongodb://your-kamatera-host:27017/innovation_db
+MONGODB_CONNECTION_STRING=mongodb://your-sliplane-host:27017/innovation_db
 OPENAI_API_KEY=your-openai-api-key
 NODE_ENV=production
 LOG_LEVEL=info

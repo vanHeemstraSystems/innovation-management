@@ -3,7 +3,7 @@
 innovation-management
 # Innovation Management
 
-> Slugline
+> Outcome-Driven Innovation (ODI) is a strategy and innovation process conceived through a Jobs-to-be-Done lens. The process employs qualitative, quantitative, and market segmentation methods that reveal hidden opportunities for growth—opportunities that often go undetected when using traditional customer research methods. Innovation Management covers the ODI enhanced with Generative Artificial Intelligence (GenAI).
 
 - [DNS](./DNS.md)
 - [Documentation](./DOCUMENTATION.md)

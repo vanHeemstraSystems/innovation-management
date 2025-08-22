@@ -137,6 +137,8 @@ The newly created Database is listed.
 
 **NOTE**: For the next section we are switching to **[Studio 3T Community Edition](https://robomongo.org/download-os.php)**, as it seems more adapt to creating collections from script. TO DO: Find out how the same is achieved with Robo 3T.
 
+**NOTE**: "Collections" in MongoDB are what in relational databases are called "tables".
+
 In **Studio 3T Community Edition** create a new file and add the following as a starter:
 
 ```

@@ -65,7 +65,7 @@ We see that the already existing repository **vanHeemstraSystems/innovation-mana
 
 ====== WE ARE HERE ======
 
-1. **Add MongoDB App Connection:**
+2. **Add MongoDB App Connection:**
 - In workflow settings, add “MongoDB” app
 - Configure with your Sliplane MongoDB credentials:
   
@@ -77,11 +77,11 @@ We see that the already existing repository **vanHeemstraSystems/innovation-mana
   Password: your_password (here: *********)
   ```
 
-1. **Add OpenAI App Connection:**
+3. **Add OpenAI App Connection:**
 - Add “OpenAI” app in workflow settings
 - Configure with your OpenAI API key
 
-1. **Deploy the Workflow Code:**
+4. **Deploy the Workflow Code:**
 - Copy the complete workflow code from the first artifact
 - Paste into the Pipedream code editor
 - Test the workflow

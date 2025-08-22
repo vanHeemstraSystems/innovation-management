@@ -49,7 +49,9 @@ We see that the already existing repository **vanHeemstraSystems/innovation-mana
 
 <img width="1059" height="892" alt="Image" src="https://github.com/user-attachments/assets/5c2cd39b-9321-4bca-8360-4de5a39d12fe" />
 
-- Copy the webhook URL for later use
+<img width="1059" height="892" alt="Image" src="https://github.com/user-attachments/assets/cd7d5d40-2ad3-4e6c-ae34-093882c9fa98" />
+
+- Copy the webhook URL for later use (here: )
 - Configure to accept POST requests
 1. **Add MongoDB App Connection:**
 - In workflow settings, add “MongoDB” app

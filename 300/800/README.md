@@ -70,7 +70,7 @@ We see that the already existing repository **vanHeemstraSystems/innovation-mana
 - Configure with your Sliplane MongoDB credentials:
   
   ```
-  Host: your-sliplane-mongodb-host (here: )
+  Host: your-sliplane-mongodb-host (here: mongo-jypf.sliplane.app)
   Port: 27017
   Database: innovation_db
   Username: your_username (here: admin)
@@ -91,7 +91,7 @@ We see that the already existing repository **vanHeemstraSystems/innovation-mana
 Add these environment variables in Pipedream:
 
 ```
-MONGODB_CONNECTION_STRING=mongodb://your-sliplane-host:27017/innovation_db
+MONGODB_CONNECTION_STRING=mongodb://your-sliplane-host:27017/innovation_db (here: mongodb://mongo-jypf.sliplane.app:27017/innovation_db)
 OPENAI_API_KEY=your-openai-api-key
 NODE_ENV=production
 LOG_LEVEL=info
@@ -102,7 +102,7 @@ LOG_LEVEL=info
 ### Base URL
 
 ```
-https://your-pipedream-workflow-url.m.pipedream.net
+https://your-pipedream-workflow-url.m.pipedream.net (here: https://eozj6mz2k37qn0a.m.pipedream.net)
 ```
 
 ### Authentication
@@ -421,7 +421,7 @@ const rateLimiter = {
    
    ```bash
    # Check MongoDB is running
-   mongo mongodb://your-host:27017/admin
+   mongo mongodb://your-host:27017/admin (here: mongodb://mongo-jypf.sliplane.app:27017/admin)
    
    # Verify network connectivity from Pipedream
    ```

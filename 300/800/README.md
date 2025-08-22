@@ -51,14 +51,14 @@ We see that the already existing repository **vanHeemstraSystems/innovation-mana
 
 <img width="1059" height="892" alt="Image" src="https://github.com/user-attachments/assets/cd7d5d40-2ad3-4e6c-ae34-093882c9fa98" />
 
-- Copy the webhook URL for later use (here: )
+- Copy the webhook URL for later use (here: https://eozj6mz2k37qn0a.m.pipedream.net)
 - Configure to accept POST requests
 1. **Add MongoDB App Connection:**
 - In workflow settings, add “MongoDB” app
 - Configure with your Sliplane MongoDB credentials:
   
   ```
-  Host: your-sliplane-mongodb-host (here: ...)
+  Host: your-sliplane-mongodb-host (here: )
   Port: 27017
   Database: innovation_db
   Username: your_username (here: admin)

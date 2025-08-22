@@ -51,6 +51,8 @@ We see that the already existing repository **vanHeemstraSystems/innovation-mana
 
 <img width="1059" height="892" alt="Image" src="https://github.com/user-attachments/assets/cd7d5d40-2ad3-4e6c-ae34-093882c9fa98" />
 
+<img width="1059" height="892" alt="Image" src="https://github.com/user-attachments/assets/af2e5857-f30e-46c8-a960-d45caf44694c" />
+
 - Copy the webhook URL for later use (here: https://eozj6mz2k37qn0a.m.pipedream.net)
 - Configure to accept POST requests
 1. **Add MongoDB App Connection:**

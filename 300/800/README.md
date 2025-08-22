@@ -57,6 +57,8 @@ We see that the already existing repository **vanHeemstraSystems/innovation-mana
 
 - Optional: Generate a Test Event.
 
+<img width="1059" height="892" alt="Image" src="https://github.com/user-attachments/assets/add29540-fa4e-4138-86eb-26b4f12a8bae" />
+
 
 
 - Configure to accept POST requests

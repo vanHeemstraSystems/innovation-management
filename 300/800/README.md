@@ -59,9 +59,10 @@ We see that the already existing repository **vanHeemstraSystems/innovation-mana
 
 <img width="1059" height="892" alt="Image" src="https://github.com/user-attachments/assets/add29540-fa4e-4138-86eb-26b4f12a8bae" />
 
+<img width="1059" height="892" alt="Image" src="https://github.com/user-attachments/assets/8d6b4bd8-f25b-4061-9202-8e6dbcd30d29" />
 
+- Configure to accept POST requests. See Test Event.
 
-- Configure to accept POST requests
 1. **Add MongoDB App Connection:**
 - In workflow settings, add “MongoDB” app
 - Configure with your Sliplane MongoDB credentials:

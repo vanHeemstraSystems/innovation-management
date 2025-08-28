@@ -78,6 +78,11 @@ On the Connect Account dialogue window, choose **Select App**:
 
 From the list of applications choose **MongoDB**:
 
+<img width="1059" height="892" alt="Image" src="https://github.com/user-attachments/assets/35376385-c8f6-4c81-a24c-3c174fe1df3f" />
+
+Back in the Connect Account dialogue window, show all fields:
+
+<img width="1059" height="892" alt="Image" src="https://github.com/user-attachments/assets/3013d9af-2cbe-42b1-9d36-484f6d29a2ea" />
 
 
 

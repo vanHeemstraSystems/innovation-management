@@ -66,11 +66,21 @@ We see that the already existing repository **vanHeemstraSystems/innovation-mana
 
 2. **Add MongoDB App Connection:**
 
-- On your PipeDream dashboard, choose the “Connect” menu item.
+- On your PipeDream dashboard of our **Innovation Management** project, choose the “Connect” menu item.
 
 <img width="1059" height="892" alt="Image" src="https://github.com/user-attachments/assets/4b6c7e35-eb3e-41fd-a969-cd67d7e97624" />
 
 Choose **Connect Account**.
+
+On the Connect Account dialogue window, choose **Select App**:
+
+<img width="1059" height="892" alt="Image" src="https://github.com/user-attachments/assets/8b4422cd-a5f3-4981-b773-7832890d42ed" />
+
+From the list of applications choose **MongoDB**:
+
+
+
+
 
 ====== WE ARE HERE ======
 

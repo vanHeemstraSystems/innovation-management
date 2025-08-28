@@ -63,10 +63,20 @@ We see that the already existing repository **vanHeemstraSystems/innovation-mana
 
 - Configure to accept POST requests. See Test Event.
 
-====== WE ARE HERE ======
 
 2. **Add MongoDB App Connection:**
-- In workflow settings, add “MongoDB” app
+
+- On your PipeDream dashboard, choose the “Connect” menu item.
+
+<img width="1059" height="892" alt="Image" src="https://github.com/user-attachments/assets/4b6c7e35-eb3e-41fd-a969-cd67d7e97624" />
+
+Choose **Connect Account**.
+
+====== WE ARE HERE ======
+
+MORE
+
+
 - Configure with your Sliplane MongoDB credentials:
   
   ```

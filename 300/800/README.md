@@ -90,11 +90,15 @@ For **External User ID** fill in a selfmade unique string (here **4546-4647-2638
 
 Click **Continue**.
 
+<img width="1059" height="892" alt="Image" src="https://github.com/user-attachments/assets/518d4526-5b06-443c-8d2d-719c44879779" />
 
-====== WE ARE HERE ======
+Take note of the Connect Options and click **Connect MongoDB**:
 
-MORE
+<img width="1059" height="892" alt="Image" src="https://github.com/user-attachments/assets/b894b386-e714-42d4-afe3-f53813c3b74b" />
 
+Click **Continue**.
+
+Fill in the fields.
 
 - Configure with your Sliplane MongoDB credentials:
   
@@ -105,6 +109,12 @@ MORE
   Username: your_username (here: admin)
   Password: your_password (here: *********)
   ```
+
+<img width="1059" height="892" alt="Image" src="https://github.com/user-attachments/assets/6a857bd5-252f-490a-bd5b-463c118fd6f4" />
+
+Click **Continue**.
+
+====== WE ARE HERE ======
 
 3. **Add OpenAI App Connection:**
 - Add “OpenAI” app in workflow settings

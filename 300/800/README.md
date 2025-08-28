@@ -114,6 +114,12 @@ Fill in the fields.
 
 Click **Continue**.
 
+If you entered the correct credentials, you will see this:
+
+<img width="1059" height="892" alt="Image" src="https://github.com/user-attachments/assets/37254e02-5687-469c-a928-6b2b57ce83b7" />
+
+
+
 ====== WE ARE HERE ======
 
 3. **Add OpenAI App Connection:**

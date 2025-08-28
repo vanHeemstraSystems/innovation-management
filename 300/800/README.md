@@ -118,7 +118,9 @@ If you entered the correct credentials, you will see this:
 
 <img width="1059" height="892" alt="Image" src="https://github.com/user-attachments/assets/37254e02-5687-469c-a928-6b2b57ce83b7" />
 
+Back on the main window, you will see the newly created connection for MongoDB, that can be used in the application by using the External User ID (here: **4546-4647-2638**)
 
+<img width="1059" height="892" alt="Image" src="https://github.com/user-attachments/assets/e9e849d4-b5de-41ba-bee3-dabe3eac8ae2" />
 
 ====== WE ARE HERE ======
 
